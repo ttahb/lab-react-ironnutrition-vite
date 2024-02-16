@@ -40,3 +40,33 @@
 .read-the-docs {
   color: #888;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+}
+
+label {
+  align-items: left;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.create-btn {
+  background-color: #2ecc71;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 30px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  line-height: 1;
+  font-size: 1rem;
+}
